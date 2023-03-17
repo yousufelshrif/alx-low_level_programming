@@ -11,8 +11,7 @@ int main(void)
 	{
 		if (i == 113 || i == 101)
 		{
-		
-
+			break;	
 		}
 		else
 		{
