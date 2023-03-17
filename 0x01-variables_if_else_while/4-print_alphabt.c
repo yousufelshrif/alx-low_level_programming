@@ -9,14 +9,11 @@ int main(void)
 	char i;
 	for (i = 97; i <= 122; i++)
 	{
-		if (i == 113 || i == 101)
-		{
-			break;	
-		}
-		else
+		if (i != 113 || i != 101)
 		{
 			putchar(i);
 		}
 		putchar('\n');
 	}
+	return (0);
 }
