@@ -4,7 +4,7 @@
  * main - "entry point"
  * ReturnAl:Always 0
  */
-int print_sign(void)
+void print_sign(void)
 {
 	int a, b, c, d;
 
