@@ -5,7 +5,7 @@
  * @n: the number to be checked
  * Return: last digit of the number
  */
-int print_sign(int n)
+int print_last_digit(int n)
 {
 	return (n % 10);
 }
