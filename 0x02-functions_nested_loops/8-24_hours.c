@@ -4,7 +4,7 @@
  * main - "entry point"
  * ReturnAl:Always 0
  */
-void print_sign(void)
+void jack_bauer(void)
 {
 	int a, b, c, d;
 
