@@ -14,13 +14,12 @@ void print_to_98(int n)
 	{
 	if (n == 97)
 	{
-	printf("98");
+	printf(", 98");
 	}
 	else
 	{
 	printf("%d ,", n);
 	}
-	printf("%d", n+1);
 	}
 	}
 	if (n > 98)
@@ -29,13 +28,12 @@ void print_to_98(int n)
 	{
 	if (n == 99)
 	{
-	printf("98");
+	printf(", 98");
 	}
 	else
 	{
 	printf("%d ,", n);
 	}
-	printf("%d", n-1);
 	}
 	}
 	printf("\n");
