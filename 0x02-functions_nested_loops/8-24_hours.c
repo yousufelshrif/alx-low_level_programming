@@ -1,25 +1,29 @@
 #include "main.h"
 
 /**
- * print_sign - "Write a function that prints the sign of a number."
- * @n: the char to be checked
- * Return: 1 if + -1 if - and 0 if 0
+ * main - "entry point"
+ * ReturnAl:Always 0
  */
 int print_sign(int n)
 {
-	if (n > 0)
+	int a, b, c, d;
+
+	for (a = 0; a <= 2; a++)
 	{
-		_putchar('+');
-		return (+1);
+	for (b = 0; b <= 9; b++)
+	{
+	for (c = 0; c <= 5; c++)
+	{
+	for (d = 0; d <= 9; d++)
+	{
+	_putchar(a + '0');
+	_putchar(b + '0');
+	_putchar(':');
+	_putchar(c + '0');
+	_putchar(d + '0');
+	_putchar('\n');
 	}
-	else if (n < 0)
-	{
-		_putchar('-');
-		return (-1);
 	}
-	else
-	{
-		_putchar('0');
-		return (0);
+	}
 	}
 }
