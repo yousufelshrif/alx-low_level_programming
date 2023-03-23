@@ -5,9 +5,9 @@
  * @c: the number passed to be tested
  * Return: 0 if lowercase and 1 if uppercase
  */
-int _isdigit(int c)
+int isdigit(int c)
 {
-	if (isdigit(int c))
+	if (isdigit(c))
 	{
 		return (1);
 	}
