@@ -3,6 +3,7 @@
 /**
  * print_size - prints square with #
  * @size: the side length of the square
+ * Return: empty
  */
 
 void print_square(int size)
