@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * puts2 - prints every other character of a string, starting with the first character
@@ -15,6 +16,6 @@ void puts2(char *str)
 	}
 	for (index = 0; index <= len -1 && str[index++] ; index += 2)
 	{
-		_puts(str[index]);
+		printf("%s", str[index]);
 	}
 }
